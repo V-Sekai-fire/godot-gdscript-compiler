@@ -1,0 +1,12 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Keep sandbox binaries - they are required for the project
+!addons/godot_sandbox/bin/**/*.dll
+!addons/godot_sandbox/bin/**/*.so
+!addons/godot_sandbox/bin/**/*.wasm
+!addons/godot_sandbox/bin/**/*.framework
+!addons/godot_sandbox/bin/**/*.gdextension
+!addons/godot_sandbox/bin/**/*.gdextension.uid
+!gdscript_compiler/**/*.elf
