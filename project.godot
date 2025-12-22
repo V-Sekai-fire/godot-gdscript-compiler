@@ -16,7 +16,7 @@ config/icon="res://icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_sandbox/plugin.cfg")
+enabled=PackedStringArray("res://addons/gdscript_compiler/plugin.cfg", "res://addons/godot_sandbox/plugin.cfg")
 
 [gdunit4]
 
