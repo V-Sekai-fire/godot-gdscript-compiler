@@ -8,20 +8,13 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
-config/name="New Game Project"
-config/features=PackedStringArray("4.6", "Double Precision", "Forward Plus")
+config/name="Sandbox Game Project"
+run/main_scene="uid://ccgyvqflvkhwx"
+config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/gdscript_compiler/plugin.cfg", "res://addons/godot_sandbox/plugin.cfg")
-
-[gdunit4]
-
-settings/test/test_lookup_folder=""
-
-[physics]
-
-3d/physics_engine="Jolt Physics"
