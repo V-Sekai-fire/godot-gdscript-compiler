@@ -1,0 +1,14 @@
+# SafeGDScript example
+
+func some_function():
+	var counter = 0
+	while counter < 10:
+		counter += 2
+	return counter
+#
+func meaning_of_life():
+	return 42
+
+func meaning_of_this(this: Node3D) -> Node3D:
+	return this.get("global_basis")
+	

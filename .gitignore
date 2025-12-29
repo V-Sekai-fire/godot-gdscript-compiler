@@ -1,9 +1,12 @@
-# Godot-specific ignores
+# Godot 4+ specific ignores
 .godot/
+
+# Godot-specific ignores
 .import/
-export_presets.cfg
-export_presets.cfg.uid
 export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
 *.translation
 
 # Mono-specific ignores
@@ -19,21 +22,5 @@ mono_crash.*.json
 .Trashes
 ehthumbs.db
 Thumbs.db
-Desktop.ini
-
-# Build directories
-/android/
-/ios/
-/web/
-/windows/
-/linux/
-/macos/
-
-# Keep sandbox binaries - they are required for the project
-!addons/godot_sandbox/bin/**/*.dll
-!addons/godot_sandbox/bin/**/*.so
-!addons/godot_sandbox/bin/**/*.wasm
-!addons/godot_sandbox/bin/**/*.framework
-!addons/godot_sandbox/bin/**/*.gdextension
-!addons/godot_sandbox/bin/**/*.gdextension.uid
-!gdscript_compiler/**/*.elf
+*~
+*.tmp
