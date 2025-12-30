@@ -9,6 +9,5 @@ func some_function():
 func meaning_of_life():
 	return 42
 
-func meaning_of_this(this: Node3D) -> Node3D:
-	return this.get("global_basis")
-	
+func meaning_of_this() -> Node3D:
+	return get_global_basis()	
