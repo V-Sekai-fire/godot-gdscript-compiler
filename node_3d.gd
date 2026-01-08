@@ -10,4 +10,4 @@ func _ready() -> void:
 		print(d)
 	print("Some incrementing function: %s" % node.some_function())
 	print("Meaning of life %s" % node.meaning_of_life())
-	print("Meaning of myself: %s" % node.meaning_of_this(self))
+	print("Meaning of myself: %s" % node.meaning_of_this())
