@@ -18,3 +18,11 @@ config/name="Sandbox Game Project"
 run/main_scene="uid://ccgyvqflvkhwx"
 config/features=PackedStringArray("4.6", "Double Precision", "Forward Plus")
 config/icon="res://icon.svg"
+
+[editor]
+
+script/skip=true
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_sandbox/plugin.cfg")

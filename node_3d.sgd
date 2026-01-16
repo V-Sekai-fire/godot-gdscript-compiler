@@ -1,14 +1,16 @@
 # SafeGDScript example
+extends Label3D
 
 func some_function():
 	var counter = 0
 	while counter < 10:
 		counter += 2
 	return counter
-#
+
 func meaning_of_life():
 	return 42
 
 func meaning_of_this() -> Node3D:
-	return get("global_basis")
-	
+	var hi: String = "Hi"
+	self.set("text", hi)
+	return hi
